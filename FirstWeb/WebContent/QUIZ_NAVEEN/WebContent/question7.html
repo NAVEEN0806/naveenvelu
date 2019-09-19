@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script type="text/javascript" src="question.js"></script>
+    
+    <title>JSON Test</title>
+</head>
+<link href="assign.css" rel="stylesheet" type="text/css">
+<!--  <body onload="checkCookie()"> -->
+<body onLoad="fetchQuestion('question7')">
+<div id="outerDiv">
+	<form name="form1" onsubmit="return validateForm() && validateAns('question7')"   method="post">
+    <div id="queDiv" ></div>
+    <div id="ansDiv" >
+    	
+    	 <input type="radio" name="question1" id="0" value=""/><label id="option1"></label><br>
+ 		 <input type="radio" name="question1" id="1" value=""/><label id="option2"></label><br>
+ 		 <input type="radio" name="question1" id="3" value=""/><label id="option3"></label><br>
+ 		 <input type="radio" name="question1" id="4" value=""/><label id="option4"></label><br>
+ 	   
+    </div>
+   	
+    <p id="demo"></p>
+    <input type="submit" formaction="question8.html" value="Next"><br/>
+    </form>
+</div>    
+
+</body>
+</html>

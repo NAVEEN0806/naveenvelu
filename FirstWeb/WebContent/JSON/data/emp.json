@@ -1,0 +1,17 @@
+{
+		"e1":{
+		"name" : "Anil Kumar",
+		"address": "MG Road",
+		"city": "Bangalore",
+		"pincode" : 560001,
+		"country": "India"
+		}	
+,
+		"e2":{
+		"name" : "Geetha Raj",
+		"address": "MG Road",
+		"city": "Bangalore",
+		"pincode" : 560001,
+		"country": "India"
+		}
+}
